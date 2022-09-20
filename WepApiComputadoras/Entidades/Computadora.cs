@@ -1,0 +1,9 @@
+﻿namespace WepApiComputadoras.Entidades
+{
+    public class Computadora
+    {
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public List<Caracteristicas> Caracteristicas { get; set; }
+    }
+}
